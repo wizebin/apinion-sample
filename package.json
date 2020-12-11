@@ -1,0 +1,23 @@
+{
+  "name": "apinion-sample",
+  "version": "1.0.0",
+  "description": "Minimal sample of an apinion api",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node ./src/index",
+    "hot": "nodemon --exec \"npm run start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apinion": "0.0.3",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "nodemon": "^2.0.6"
+  }
+}
